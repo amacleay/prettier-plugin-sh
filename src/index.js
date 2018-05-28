@@ -1,5 +1,7 @@
 "use strict";
 
+const parse = require("./parser");
+
 const languages = [
   {
     name: "Shell",
@@ -12,6 +14,14 @@ const languages = [
   }
 ];
 
+const parsers = {
+  sh: {
+    parse,
+    astFormat: "sh"
+  }
+};
+
 module.exports = {
-  languages
+  languages,
+  parsers,
 };
