@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`if.sh 1`] = `
+if true
+then
+  echo "True"
+else
+  echo "False"
+fi
+
+if true; then
+   echo "True"
+else
+      echo "False"
+fi
+
+if true; then
+echo "True"
+fi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+if true; then
+  echo "True"
+else
+  echo "False"
+fi
+
+if true; then
+  echo "True"
+else
+  echo "False"
+fi
+
+if true; then
+  echo "True"
+fi
+`;
