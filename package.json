@@ -8,7 +8,9 @@
     "url": "https://jeremie.astori.fr"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bash-parser": "0.5.0"
+  },
   "devDependencies": {},
   "peerDependencies": {
     "prettier": "^1.12.0"
