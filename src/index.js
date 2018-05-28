@@ -1,6 +1,7 @@
 "use strict";
 
 const parse = require("./parser");
+const print = require("./printer");
 
 const languages = [
   {
@@ -21,7 +22,14 @@ const parsers = {
   }
 };
 
+const printers = {
+  sh: {
+    print
+  }
+};
+
 module.exports = {
   languages,
   parsers,
+  printers,
 };
