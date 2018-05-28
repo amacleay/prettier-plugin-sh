@@ -1,0 +1,19 @@
+---
+language: node_js
+
+node_js:
+  - 10 # EOL: April 2021
+  - 9 # EOL: June 2018
+  - 8 # EOL: December 2019
+  - 6 # EOL: April 2019
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install
+
+script:
+  - AST_COMPARE=1 yarn test --runInBand
