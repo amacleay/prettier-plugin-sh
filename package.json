@@ -1,0 +1,17 @@
+{
+  "name": "prettier-plugin-sh",
+  "version": "0.1.0",
+  "description": "Prettier Shell Plugin",
+  "repository": "https://github.com/astorije/prettier-plugin-sh",
+  "author": {
+    "name": "Jérémie Astori",
+    "url": "https://jeremie.astori.fr"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "prettier": "^1.12.0"
+  },
+  "scripts": {}
+}
