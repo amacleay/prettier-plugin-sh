@@ -1,6 +1,8 @@
-<marquee>
-    :construction: Work in Progress! :construction:
-</marquee>
+<nowiki>
+    <marquee>
+        :construction: Work in Progress! :construction:
+    </marquee>
+</nowiki>
 
 <div align="center">
 <img alt="Prettier"
