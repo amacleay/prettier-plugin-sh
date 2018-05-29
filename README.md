@@ -1,6 +1,6 @@
 <marquee>
     :construction: Work in Progress! :construction:
-<marquee>
+</marquee>
 
 <div align="center">
 <img alt="Prettier"
